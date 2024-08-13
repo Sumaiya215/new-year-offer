@@ -7,17 +7,21 @@ body{
 /* Banner Section */
 header{
     width: 95%;
-    height:650px;
+    height:700px;
     margin: 50px  auto 100px;
     /* border: 2px solid red; */
 }
+
 .banner-container{
     
     background-size: cover;
     background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
     url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
-    border-radius: 20px;
+    /* overflow: hidden; */
+   /* -webkit-border-radius: 20px;
+  -moz-border-radius: 20px; */
+    border-radius: 20px 20px 60px 30px;
 }
 .subtitle{
     padding-top: 180px;
@@ -35,4 +39,31 @@ header{
     text-align: center;
     color: white;
     padding-bottom: 250px;
+}
+/*  */
+.offer{
+    margin: 120px auto;
+    text-align: center;
+}
+.p1{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.p2{
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2px;
+}
+.p3{
+    color: rgb(7, 2, 17);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#new-year{
+    width: 450px;
+    height: 300px;
 }
