@@ -67,3 +67,152 @@ header{
     width: 450px;
     height: 300px;
 }
+/*  */
+.party{
+    width: 90%;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+     url('../images/party.png');
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    margin: 100px auto;
+}
+.party-text{
+    width: 50%;
+    margin-left: 50px;
+    color: white;
+    text-align: left;
+
+}
+.party-title{
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 11%;
+}
+.description{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 50px;
+}
+
+#img-party{
+    width: 100%;
+    height: 80%;
+}
+.place{
+     width: 90%;
+     padding: 30px 0;
+     margin: 60px auto;
+     border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.place p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+}
+.span{
+    color: rgb(255, 0, 0);
+}
+.new-offer{
+    width: 85%;
+    margin:100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-text{
+    width: 25%;
+}
+.offer-subtitle{
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 5px;
+    
+}
+.offer-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 20px;
+}
+.offer-des{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.offer-image{
+    width: 25%;
+    box-sizing: border-box;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 20px;
+} 
+.new-text-2{
+    width: 25%;
+}
+.year{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    line-height:20px;
+}
+#new-year-1{
+    width: 100px;
+    height: 100px;
+}
+#ellipse{
+    width: 100%;
+}
+.discount{
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+}
+.discount-subtitle{
+    color: rgb(7, 2, 17);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.discount-title{
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 30px;
+}
+.holiday{
+    color:rgb(255, 0, 0);
+}
+#first-img{
+    /* text-align: right; */
+    margin-right: -600px;
+    margin-top: 100px;
+}
+#second-img{
+    width: 90%;
+    margin: 0px auto;
+}
+#third-img{
+    width: 50%;
+    height: 30%;
+    translate: -150px -530px;
+    overflow:auto;
+    position: relative;
+}
