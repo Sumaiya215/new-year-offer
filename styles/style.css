@@ -283,7 +283,7 @@ footer{
 }
 .text-1{
     padding-top: 50px ;
-    margin-left: -180px;
+    margin-left: -160px;
     line-height: 30px;
 }
 .text-2{
@@ -305,6 +305,7 @@ footer{
 }
 .second-text .text-1{
     padding-bottom: 50px;
+    margin-left: -200px;
 }
 .second-text .text-2{
     padding-bottom: 50px;
