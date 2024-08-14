@@ -234,3 +234,97 @@ header{
     width: 350px;
     height: 380px;
 }
+.newsletter{
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter #envelope{
+    padding-top: 50px;
+}
+#envelope{
+    width: 100px;
+    height: 100px;
+}
+input{
+    width: 30%;
+    margin-bottom: 50px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+}
+input::placeholder{
+ color: rgba(7, 2, 17, 0.3);
+}
+.btn-primary{
+    color: white;
+    font-weight: 600;
+    background-color: rgb(255, 0, 0);
+    padding: 15px 30px;
+    border: none;
+    border-radius:0px 25px 25px 0px;
+    margin-left: -50px;
+}
+/* Footer */
+footer{
+    width: 100%;
+    height: 100%;
+    margin: 50px auto 100px;
+    background-color: rgb(7, 2, 17);
+}
+.first-text{
+    font-size: 18px;
+     color: white;
+     margin: 0px auto ;
+     display: flex;
+     justify-content: space-around;
+}
+.text-1{
+    padding-top: 50px ;
+    margin-left: -180px;
+    line-height: 30px;
+}
+.text-2{
+    padding-top: 50px;
+    margin-right: -120px;
+    line-height: 30px;
+   
+}
+.text-2 img{
+   width: 10% ;
+   margin-right: 5px;
+}
+.second-text{
+    font-size: 18px;
+    color: white;
+     margin: 0px auto ;
+     display: flex;
+     justify-content: space-around;
+}
+.second-text .text-1{
+    padding-bottom: 50px;
+}
+.second-text .text-2{
+    padding-bottom: 50px;
+    margin-right: -200px;
+}
+
+.icons{
+    width: 80%;
+    /* margin-left: 20px; */
+    margin: 20px auto;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icon{
+
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+   
+}
