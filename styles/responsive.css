@@ -13,12 +13,24 @@
     }
     .party{
         width: 90%;
-        height: 1200px;
+        height: 100%;
         background: url('../images/party.png');
-        /* background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .party-text{
+        width: 80%;
+        text-align: center;
+    }
+    .party-title{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 32px;
     }
     #img-party{
+        width: 200px;
+        height: 200px;
         margin-top: 70px;
     }
     .new-offer{
@@ -77,8 +89,8 @@
     gap: 30px;
 }
 .img-box{
-    width: 220px;
-    height: 250px;
+    width: 300px;
+    height: 330px;
 }
 .newsletter .offer-title{
     font-size: 24px;
